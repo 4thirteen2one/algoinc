@@ -4,7 +4,7 @@ typedef int EdgeType;           //整数表示权值或者连通性
 typedef struct {
     VertexType vertices[MAXV];  //顶点表
     EdgeType edges[MAXV][MAXV]; //邻接矩阵（二维数组）边表
-    int num_v, num_e;           //图的当前顶点数和弧数
+    int num_v, num_e;           //图的顶点数和弧数
 } MGraph;
 
 //邻接表
